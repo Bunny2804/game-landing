@@ -16,6 +16,7 @@ body {
     flex-direction: column;
     background: #26254f;
     width: 400px;
+    min-width: 400px;
     height:100%;
     border-radius: 0 55px 55px 0;
 }
@@ -172,6 +173,7 @@ body {
 }
 
 .header {
+    justify-content: space-between;
     display: flex;
     width: 100%;
     height: 170px;
@@ -198,6 +200,30 @@ body {
     letter-spacing: 5px;
 }
 
+.header-icon {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    width: 110px;
+    height: 100px;
+
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: grey;
+    width:50px;
+    height: 50px;
+    border-radius: 50px
+}
+
+.icon-container img {
+    width:30px;
+    height: 30px;
+}
+
 .our-pick {
     margin-top: 40px;
     display: flex;
@@ -213,23 +239,22 @@ body {
 }
 
 .games-list {
+    justify-content: space-around;
     display: flex;
-    flex-direction: column;
     width: 100%;
     flex: 1;
 }
 
 .game {
+    justify-content: space-between;
     display: flex;
     flex-direction: column;
     align-items: start;
-    width: 30%;
-    height: 330px;
+    width: 300px;
+    height: 280px;
 }
 
 .game-img {
-    margin-left: 60px;
-    justify-content: center;
     align-items: center;
     display: flex;
     height: 100%;
@@ -237,8 +262,6 @@ body {
 }
 
 .game-icon {
-    margin-left: 150px;
-    background: lightskyblue;
     width:300px;
     height: 200px;
     border-radius: 30px
@@ -251,7 +274,6 @@ body {
 
 .game-info {
     margin-top: 20px;
-    margin-left: 80px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -266,4 +288,84 @@ body {
 
 .game-info .by {
     font-size: 15px;
+}
+
+.fortnite-color {
+    background: rgb(39, 229, 246);
+}
+
+.rdr-color {
+    background: #bf2323;
+}
+
+.cyberpunk-color {
+    background: #ffc800;
+}
+
+.rpg {
+    margin-top: 40px;
+    display: flex;
+    width: 100%;
+    height: 70px
+}
+
+.rpg-text {
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: bold
+}
+
+.second-list {
+    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    flex: 1;
+}
+
+.other-games {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 200px;
+    height: 280px
+}
+
+.other-games-img {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width:40%;
+}
+
+.other-icon {
+    width:200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.other-icon img {
+    width:200px;
+    height: 200px;
+}
+
+.skyrim-color {
+    background: lightskyblue;
+}
+
+.witcher-color {
+    background: antiquewhite;
+}
+
+.border-color {
+    background: #ffc800;
+}
+
+.asa-color {
+    background: bisque;
+}
+
+.amer-color {
+    background:brown;
 }
